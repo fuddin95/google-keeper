@@ -1,9 +1,7 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Note, {
-    Card
-} from "./Note";
+import Note, {Card} from "./Note";
 import noteMaster from "../notes";
 
 
@@ -23,7 +21,7 @@ function App() {
      
     <Footer / >
         </div>);
-            }
+}
 
 
 export default App;
